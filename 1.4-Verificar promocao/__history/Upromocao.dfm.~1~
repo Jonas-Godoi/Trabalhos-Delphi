@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 302
+  ClientWidth = 393
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lbNome: TLabel
+    Left = 48
+    Top = 32
+    Width = 55
+    Height = 29
+    Caption = 'Nome'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbSalario: TLabel
+    Left = 48
+    Top = 82
+    Width = 70
+    Height = 29
+    Caption = 'Sal'#225'rio'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbTempodeserv: TLabel
+    Left = 48
+    Top = 125
+    Width = 173
+    Height = 29
+    Caption = 'Tempo de Servi'#231'o'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbReclamacoes: TLabel
+    Left = 48
+    Top = 168
+    Width = 122
+    Height = 29
+    Caption = 'Reclama'#231#245'es'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtNome: TEdit
+    Left = 128
+    Top = 29
+    Width = 236
+    Height = 37
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtSalario: TEdit
+    Left = 128
+    Top = 79
+    Width = 236
+    Height = 37
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtTemp: TEdit
+    Left = 243
+    Top = 122
+    Width = 121
+    Height = 37
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object edtReclam: TEdit
+    Left = 243
+    Top = 165
+    Width = 121
+    Height = 37
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnVerificar: TButton
+    Left = 48
+    Top = 232
+    Width = 316
+    Height = 33
+    Caption = 'Verificar Promo'#231#227'o'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnVerificarClick
+  end
+end
